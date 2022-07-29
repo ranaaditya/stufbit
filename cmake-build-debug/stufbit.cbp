@@ -85,6 +85,9 @@
 		<Unit filename="/home/adityarana/bit-stuffing/stufbit/main.cpp">
 			<Option target="stufbit"/>
 		</Unit>
+		<Unit filename="/home/adityarana/bit-stuffing/stufbit/stufbit.h">
+			<Option target="stufbit"/>
+		</Unit>
 		<Unit filename="/home/adityarana/bit-stuffing/stufbit/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
