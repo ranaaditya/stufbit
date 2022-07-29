@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/adityarana/bit-stuffing/stufbit/logger.h
+iostream
+-
+
 /home/adityarana/bit-stuffing/stufbit/main.cpp
 iostream
 -
 stufbit.h
 /home/adityarana/bit-stuffing/stufbit/stufbit.h
+logger.h
+/home/adityarana/bit-stuffing/stufbit/logger.h
 
 /home/adityarana/bit-stuffing/stufbit/stufbit.h
 iostream
