@@ -17,9 +17,7 @@ public:
         cout << "Logger initiated !" << endl;
     }
 
-//    template<typename T, typename... Types>
-//    void logd(T log1, Types... log2) {
-//        cout << log1 << endl ;
-//        logd(log2...);
-//    }
+    void logd(string logString){
+        cout << logString << endl;
+    }
 };
