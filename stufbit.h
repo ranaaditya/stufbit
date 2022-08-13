@@ -13,6 +13,8 @@
 #include <iostream>
 using namespace std;
 
+// Bit Array = Header + Payload + Trailer
+// Size of Header and Trailer has been predefined and taken as an Octet (8 bits)
 class BitStuffing {
 private:
     string bitArray;
@@ -40,7 +42,7 @@ public:
         return tempFrame;
     }
 
-    BitStuffing(string bitarray, int length, int frameSize = 8) {
+    BitStuffing(string bitarray, int length, int frameSize = 8) { // framesize has been taken as an octet by default
         this->bitArray = bitarray;
         this->lengthOfBitArray = length;
         this->frameLength = frameSize;
